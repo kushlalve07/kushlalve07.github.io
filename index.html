@@ -9,16 +9,25 @@
 <body>
   <!-- Header / Navigation -->
   <header>
-    <h1>Kushl Alve</h1>
+    <div class="header-top">
+      <img src="./images/profile.jpeg" alt="Kushl Alve" class="profile-pic">
+      <h1>Kushl Alve</h1>
+    </div>
     <nav>
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="#achieve">Achievements</a></li>
       </ul>
     </nav>
+    <div class="socials">
+      <a href="https://github.com/kushlalve07" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/kushl-alve/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://leetcode.com/u/Moodyspider266/" target="_blank" rel="noopener noreferrer">LeetCode</a>
+    </div>
   </header>
  
   <!-- About Section -->
@@ -41,16 +50,39 @@
       <li>B.E. Computer Engineering - Vivekanand Education Society's Institute of Technology, Mumbai (2022 - 2026) CGPA: 9.45</li>
     </ul>
   </section>
- 
-  <!-- Hobbies Section -->
-  <section id="hobbies">
-    <h2>Hobbies</h2>
-    <ul>
-      <li>Football</li>
-      <li>Gaming</li>
-      <li>Carrom</li>
-      <li>Guitar</li>
-    </ul>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+
+      <div class="project-card">
+        <h3>Samachar</h3>
+        <p>
+          Samachar gives a 2-3 line overview of a news article fetched via RSS feed
+          from the Times of India website. Built with React for the frontend and
+          FastAPI for the backend, with the frontend hosted on Vercel and the backend on Railway.
+        </p>
+        <div class="project-links">
+          <a href="https://news-app-frontend-jet-ten.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>ChatDB (Text2SQL Multi-Agent Framework)</h3>
+        <p>
+          ChatDB allows querying a large database (the Chinook database) using natural
+          language, by dividing the task among four agents: a Planner that breaks the
+          user query into simpler sub-tasks, a Selector that picks the appropriate
+          tables, a Generator that constructs the complex SQL query, and an Executor
+          that runs the query and returns the results to the user.
+        </p>
+        <div class="project-links">
+          <a href="https://github.com/kushlalve07/Text2SQL_Multi_Agent_Framework" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+        </div>
+      </div>
+
+    </div>
   </section>
  
   <!-- Picture Gallery Section -->
@@ -76,9 +108,25 @@
       <p>4. Published a Research Paper in IET Blockchain Journal in UG 2nd year.</p>
     </div>
   </section>
+
+  <!-- Hobbies Section -->
+  <section id="hobbies">
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Football</li>
+      <li>Gaming</li>
+      <li>Carrom</li>
+      <li>Guitar</li>
+    </ul>
+  </section>
  
   <!-- Footer -->
   <footer>
+    <div class="socials">
+      <a href="https://github.com/kushlalve07" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/kushl-alve/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://leetcode.com/u/Moodyspider266/" target="_blank" rel="noopener noreferrer">LeetCode</a>
+    </div>
     <h5>&copy; 2026 Kushl Alve. All rights reserved.</h5>
   </footer>
 </body>
